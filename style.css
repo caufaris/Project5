@@ -1,0 +1,88 @@
+* {
+  scroll-behavior: smooth;
+  font-family: "Amiri", serif;
+}
+.carousel img {
+  height: 70vh;
+  width: 100vw;
+  object-fit: cover;
+}
+
+.navbar {
+  height: 15vh;
+}
+
+.carousel-caption {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+.carousel-caption h3 {
+  font-size: 50px;
+}
+
+.item {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.dugme {
+  border: 1px solid white;
+  background: none;
+  color: white;
+}
+
+.dugme:hover {
+  background: white;
+  color: black;
+}
+
+.wrapper {
+  height: 90vh;
+}
+
+.side-img {
+  height: 80%;
+  width: 70%;
+  object-fit: cover;
+  border: 1px solid grey;
+}
+
+.srednja-slika {
+  height: 375px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about {
+  height: 100vh;
+}
+
+.side-img2 {
+  height: 100%;
+  width: 70%;
+  object-fit: cover;
+  border: 1px solid grey;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.frame {
+  width: 100vw;
+  height: 70vh;
+}
+
+.form-control {
+  width: 70%;
+}
